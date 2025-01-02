@@ -5,14 +5,22 @@ const props = defineProps({
     default: () => ({
       address: []
     })
+  },
+  counterData: {
+    type: Object,
   }
 })
 
 const address = computed(() => props.globalData?.address?.[0] || null)
+const siteVisits = computed(() => props.counterData.siteVisits.visits || 'Loading...')
+const pageVisits = computed(() => props.counterData.pageVisits.today || 'Loading...')
 </script>
 
 
 <template>
+  <div class="container mx-auto text-center text-sm">
+      Site visits: {{ siteVisits }} - Page visits: {{ pageVisits }}
+  </div>
   <footer class="bg-slate-50 py-6 px-2 text-sm">
     <address 
       v-if="address"

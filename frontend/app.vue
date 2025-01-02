@@ -29,6 +29,6 @@ const { data: globalsData } = await useAsyncData('globals', async () => {
     <main class="page min-h-screen" id="main" tabindex="-1">
       <NuxtPage />
     </main>
-    <Footer :globalData="globalsData?.global" />
+    <Footer :globalData="globalsData?.global" :counterData="$counterData" />
   </div>
 </template>

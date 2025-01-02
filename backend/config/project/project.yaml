@@ -1,4 +1,4 @@
-dateModified: 1732311699
+dateModified: 1735803979
 elementSources:
   craft\elements\Entry:
     -
@@ -171,6 +171,33 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0.0
+  counter:
+    edition: standard
+    enabled: true
+    licenseKey: U6622PDG8OC9DR6KGR158086
+    schemaVersion: 1.0.0-alpha.5
+    settings:
+      anonymizeIp: true
+      anonymizedIpInEvent: false
+      cacheWidgetsSeconds: 0
+      disableCountController: false
+      headlessToken: SecretTokenHere
+      ignoreAllUsers: false
+      ignoreBots: false
+      ignoreGroups: null
+      ignoreUserIds: null
+      ipInEvent: false
+      keepVisitorsInSeconds: -1
+      onlineThreshold: 60
+      registerCounter: false
+      removeAllQueryParams: false
+      removeQueryParams: null
+      removeUrlFragment: false
+      salt: sknxqbsvlkqhkjktojbrwbtmncjnictbpxbn
+      showAllCalendars: false
+      siteSettings: '{"58ccb571-6c72-449f-8e7b-6f43c5d416b3":{"calendar":"gregorian","weekStartDay":"0","enabledCounter":"1"}}' # Nuxt Starter
+      supportOutdatedBrowsers: false
+      visitsInterval: 0
 system:
   edition: solo
   live: true

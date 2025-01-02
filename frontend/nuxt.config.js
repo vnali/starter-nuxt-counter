@@ -23,7 +23,11 @@ export default defineNuxtConfig({
       GRAPHQL_TOKEN: process.env.GRAPHQL_TOKEN,
       CRAFT_URL: process.env.CRAFT_URL,
       BASE_URL: process.env.BASE_URL,
-      SITE_NAME: process.env.SITE_NAME
+      SITE_NAME: process.env.SITE_NAME,
+      COUNTER_API: process.env.COUNTER_API
+    },
+    private: {
+      COUNTER_SECRET_TOKEN: process.env.COUNTER_SECRET_TOKEN
     }
   },
   vite: {
