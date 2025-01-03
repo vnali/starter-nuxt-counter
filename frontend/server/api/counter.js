@@ -12,7 +12,7 @@ export default defineEventHandler(async (event) => {
     // Modify the body
     const newBody = {
         ...body,          // Include existing data
-        counterSecretToken: config.private.COUNTER_SECRET_TOKEN, // Add/modify data
+        counterToken: config.private.COUNTER_SECRET_TOKEN, // Add/modify data
     };
 
     // Forward the request with the new body to another API

@@ -24,7 +24,8 @@ export default defineNuxtConfig({
       CRAFT_URL: process.env.CRAFT_URL,
       BASE_URL: process.env.BASE_URL,
       SITE_NAME: process.env.SITE_NAME,
-      COUNTER_API: process.env.COUNTER_API
+      COUNTER_API: process.env.COUNTER_API,
+      COUNTER_TOKEN: process.env.COUNTER_TOKEN
     },
     private: {
       COUNTER_SECRET_TOKEN: process.env.COUNTER_SECRET_TOKEN

@@ -7,6 +7,7 @@ export default defineNuxtPlugin(async (nuxtApp) => {
   // Reactive variable to hold site counter data
 
   const graphql = useGraphQL();
+  const config = useRuntimeConfig();
 
   const counterData = reactive({
     siteVisits: [], // Default value
@@ -14,20 +15,38 @@ export default defineNuxtPlugin(async (nuxtApp) => {
   });
 
   const sendCounterData = () => {
-    const data = {
-      pageUrl: decodeURIComponent(window.location.href),
-    };
 
-    fetch('/api/counter/' + "?t=" + new Date().getTime(), {
-      method: "POST",
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    }).catch(error => {
-      console.error('Error sending counter data:', error);
-    });
+    if (config.public.COUNTER_TOKEN) {
+      const data = {
+        pageUrl: decodeURIComponent(window.location.href),
+        counterToken: config.public.COUNTER_TOKEN, // Add/modify data
+      };
+      fetch(config.public.COUNTER_API + "?t=" + new Date().getTime(), {
+        method: "POST",
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      }).catch(error => {
+        console.error('Error sending counter data:', error);
+      });
+    } else {
+      const data = {
+        pageUrl: decodeURIComponent(window.location.href),
+      };
+
+      fetch('/api/counter/' + "?t=" + new Date().getTime(), {
+        method: "POST",
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      }).catch(error => {
+        console.error('Error sending counter data:', error);
+      });
+    }
   };
 
   const counter = async () => {
