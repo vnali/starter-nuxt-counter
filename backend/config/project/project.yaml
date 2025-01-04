@@ -1,4 +1,4 @@
-dateModified: 1735803979
+dateModified: 1735999573
 elementSources:
   craft\elements\Entry:
     -
@@ -189,14 +189,14 @@ plugins:
       ipInEvent: false
       keepVisitorsInSeconds: -1
       onlineThreshold: 60
-      registerCounter: false
+      registerCounter: true
       removeAllQueryParams: false
       removeQueryParams: null
       removeUrlFragment: false
       salt: sknxqbsvlkqhkjktojbrwbtmncjnictbpxbn
       showAllCalendars: false
       siteSettings: '{"58ccb571-6c72-449f-8e7b-6f43c5d416b3":{"calendar":"gregorian","weekStartDay":"0","enabledCounter":"1"}}' # Nuxt Starter
-      supportOutdatedBrowsers: false
+      supportOutdatedBrowsers: true
       visitsInterval: 0
 system:
   edition: solo
