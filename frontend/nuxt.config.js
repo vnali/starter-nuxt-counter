@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
+  ssr: true,
   devtools: { enabled: true },
   app: {
     head: {
@@ -25,7 +26,7 @@ export default defineNuxtConfig({
       BASE_URL: process.env.BASE_URL,
       SITE_NAME: process.env.SITE_NAME,
       COUNTER_API: process.env.COUNTER_API,
-      COUNTER_TOKEN: process.env.COUNTER_TOKEN
+      /* COUNTER_TOKEN: process.env.COUNTER_TOKEN */
     },
     private: {
       COUNTER_SECRET_TOKEN: process.env.COUNTER_SECRET_TOKEN

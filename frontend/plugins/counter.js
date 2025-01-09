@@ -19,7 +19,7 @@ export default defineNuxtPlugin(async (nuxtApp) => {
     if (config.public.COUNTER_TOKEN) {
       const data = {
         pageUrl: decodeURIComponent(window.location.href),
-        counterToken: config.public.COUNTER_TOKEN, // Add/modify data
+        headlessToken: config.public.COUNTER_TOKEN, // Add/modify data
       };
       fetch(config.public.COUNTER_API + "?t=" + new Date().getTime(), {
         method: "POST",
