@@ -41,6 +41,8 @@ This project assumes you have our recommended development environment  [DDEV](ht
 
     - Copy `frontend/.env.example` to `frontend/.env`;
     - Update `GRAPHQL_TOKEN` to the token generated in the previous step;
+    - Update `COUNTER_SECRET_TOKEN` to a complex token. 
+    - Update `headlessToken` in backend/config/counter.php to the value of `COUNTER_SECRET_TOKEN` in the previous step.
 
 1. Install front-end dependencies:
 
@@ -54,7 +56,7 @@ This project assumes you have our recommended development environment  [DDEV](ht
     ddev fe npm run dev
     ```
 
-1. Visit backend: https://api.starter-nuxt-counter.ddev.site/ and install the counter plugin.  
+1. Visit https://api.starter-nuxt-counter.ddev.site/admin and install the counter plugin.  
 
 1. Go to plugin settings and enable counter for your site at Site settings.
 
@@ -62,4 +64,4 @@ This project assumes you have our recommended development environment  [DDEV](ht
 
 1. Visit fornt end: https://starter-nuxt-counter.ddev.site/ 
 
-1. There is a statistics block at the footer of every page that shows site and page visits for today.
+    - There is a statistics block at the footer of every page that shows site and page visits for today.
