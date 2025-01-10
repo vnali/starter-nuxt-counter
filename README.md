@@ -62,6 +62,6 @@ This project assumes you have our recommended development environment  [DDEV](ht
 
 1. Optionally add widgets like visits, ... to the user dashboard
 
-1. Visit fornt end: https://starter-nuxt-counter.ddev.site/ 
+1. Visit frontend: https://starter-nuxt-counter.ddev.site/ 
 
-    - There is a statistics block at the footer of every page that shows site and page visits for today.
+    - There is a statistics block in the footer of every page that shows the site and page visits for today.
