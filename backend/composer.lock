@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2cf76f02bdf7234a2965fcbdf70c585f",
+    "content-hash": "b9ccb7d5f6b6484243f4d1f95a99dfb1",
     "packages": [
         {
             "name": "99designs/http-signatures",
@@ -88,16 +88,11 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.331.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "0f8b3f63ba7b296afedcb3e6a43ce140831b9400"
-            },
+            "version": "3.336.11",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0f8b3f63ba7b296afedcb3e6a43ce140831b9400",
-                "reference": "0f8b3f63ba7b296afedcb3e6a43ce140831b9400",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/442039c766a82f06ecfecb0ac2c610d6aaba228d",
+                "reference": "442039c766a82f06ecfecb0ac2c610d6aaba228d",
                 "shasum": ""
             },
             "require": {
@@ -111,25 +106,6 @@
                 "mtdowling/jmespath.php": "^2.6",
                 "php": ">=7.2.5",
                 "psr/http-message": "^1.0 || ^2.0"
-            },
-            "require-dev": {
-                "andrewsville/php-token-reflection": "^1.4",
-                "aws/aws-php-sns-message-validator": "~1.0",
-                "behat/behat": "~3.0",
-                "composer/composer": "^1.10.22",
-                "dms/phpunit-arraysubset-asserts": "^0.4.0",
-                "doctrine/cache": "~1.4",
-                "ext-dom": "*",
-                "ext-openssl": "*",
-                "ext-pcntl": "*",
-                "ext-sockets": "*",
-                "nette/neon": "^2.3",
-                "paragonie/random_compat": ">= 2",
-                "phpunit/phpunit": "^5.6.3 || ^8.5 || ^9.5",
-                "psr/cache": "^1.0 || ^2.0 || ^3.0",
-                "psr/simple-cache": "^1.0 || ^2.0 || ^3.0",
-                "sebastian/comparator": "^1.2.3 || ^4.0",
-                "yoast/phpunit-polyfills": "^1.0"
             },
             "suggest": {
                 "aws/aws-php-sns-message-validator": "To validate incoming SNS notifications",
@@ -155,7 +131,6 @@
                     "src/data/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -177,12 +152,7 @@
                 "s3",
                 "sdk"
             ],
-            "support": {
-                "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
-                "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.331.0"
-            },
-            "time": "2024-11-27T19:12:58+00:00"
+            "time": "2025-01-08T19:06:59+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -534,11 +504,11 @@
         },
         {
             "name": "craftcms/cloud",
-            "version": "2.6.7",
+            "version": "2.7.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cloud-extension-yii2/zipball/b41311a383633f034baa96fb2c06fa6ea38eaf45",
-                "reference": "b41311a383633f034baa96fb2c06fa6ea38eaf45",
+                "url": "https://api.github.com/repos/craftcms/cloud-extension-yii2/zipball/1e63957ff2065276ca7c43b43799aa3aad780bd4",
+                "reference": "1e63957ff2065276ca7c43b43799aa3aad780bd4",
                 "shasum": ""
             },
             "require": {
@@ -551,7 +521,6 @@
                 "league/uri": "^7",
                 "league/uri-components": "^7",
                 "phlak/semver": "^4.1",
-                "php": "^8.1",
                 "symfony/process": "^6",
                 "yiisoft/yii2-queue": "^2.3.7",
                 "yiisoft/yii2-redis": "^2.0"
@@ -568,15 +537,15 @@
                     "craft\\cloud\\": "src/"
                 }
             },
-            "time": "2024-11-08T18:32:00+00:00"
+            "time": "2024-12-31T19:20:13+00:00"
         },
         {
             "name": "craftcms/cms",
-            "version": "5.5.8",
+            "version": "5.5.9",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/dc3ea0cba1f1e60eb32d1dd08c8313eadcc1ebfe",
-                "reference": "dc3ea0cba1f1e60eb32d1dd08c8313eadcc1ebfe",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/dcec103dc13a4d6626f3226900237a0b5a99c5df",
+                "reference": "dcec103dc13a4d6626f3226900237a0b5a99c5df",
                 "shasum": ""
             },
             "require": {
@@ -674,7 +643,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2025-01-03T00:01:03+00:00"
+            "time": "2025-01-06T18:35:42+00:00"
         },
         {
             "name": "craftcms/flysystem",
@@ -2054,15 +2023,15 @@
         },
         {
             "name": "league/uri-components",
-            "version": "7.4.1",
+            "version": "7.5.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri-components/zipball/b94fe4097885f1b51c4c3fcb78025fbbabbb5d9d",
-                "reference": "b94fe4097885f1b51c4c3fcb78025fbbabbb5d9d",
+                "url": "https://api.github.com/repos/thephpleague/uri-components/zipball/4aabf0e2f2f9421ffcacab35be33e4fb5e63c44f",
+                "reference": "4aabf0e2f2f9421ffcacab35be33e4fb5e63c44f",
                 "shasum": ""
             },
             "require": {
-                "league/uri": "^7.3",
+                "league/uri": "^7.5",
                 "php": "^8.1"
             },
             "suggest": {
@@ -2114,7 +2083,7 @@
                 "url",
                 "userinfo"
             ],
-            "time": "2024-03-23T07:42:40+00:00"
+            "time": "2024-12-08T08:40:02+00:00"
         },
         {
             "name": "league/uri-interfaces",
@@ -3588,11 +3557,6 @@
         {
             "name": "spomky-labs/pki-framework",
             "version": "1.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Spomky-Labs/pki-framework.git",
-                "reference": "5ac374c3e295c8b917208ff41b4d30f76668478c"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/Spomky-Labs/pki-framework/zipball/5ac374c3e295c8b917208ff41b4d30f76668478c",
@@ -3603,24 +3567,6 @@
                 "brick/math": "^0.10|^0.11|^0.12",
                 "ext-mbstring": "*",
                 "php": ">=8.1"
-            },
-            "require-dev": {
-                "ekino/phpstan-banned-code": "^1.0|^2.0|^3.0",
-                "ext-gmp": "*",
-                "ext-openssl": "*",
-                "infection/infection": "^0.28|^0.29",
-                "php-parallel-lint/php-parallel-lint": "^1.3",
-                "phpstan/extension-installer": "^1.3|^2.0",
-                "phpstan/phpstan": "^1.8|^2.0",
-                "phpstan/phpstan-deprecation-rules": "^1.0|^2.0",
-                "phpstan/phpstan-phpunit": "^1.1|^2.0",
-                "phpstan/phpstan-strict-rules": "^1.3|^2.0",
-                "phpunit/phpunit": "^10.1|^11.0",
-                "rector/rector": "^1.0|^2.0",
-                "roave/security-advisories": "dev-latest",
-                "symfony/string": "^6.4|^7.0",
-                "symfony/var-dumper": "^6.4|^7.0",
-                "symplify/easy-coding-standard": "^12.0"
             },
             "suggest": {
                 "ext-bcmath": "For better performance (or GMP)",
@@ -3633,7 +3579,6 @@
                     "SpomkyLabs\\Pki\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3677,20 +3622,6 @@
                 "x.690",
                 "x509",
                 "x690"
-            ],
-            "support": {
-                "issues": "https://github.com/Spomky-Labs/pki-framework/issues",
-                "source": "https://github.com/Spomky-Labs/pki-framework/tree/1.2.2"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/Spomky",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/FlorentMorselli",
-                    "type": "patreon"
-                }
             ],
             "time": "2025-01-03T09:35:48+00:00"
         },
@@ -5302,11 +5233,16 @@
         },
         {
             "name": "vnali/craft-counter",
-            "version": "1.0.0-beta.1",
+            "version": "dev-craft5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vnali/craft-counter.git",
+                "reference": "10a70efb84292e9d09d056ae92da79db4664fe0d"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vnali/craft-counter/zipball/ab24659cf9e1006785896b402522d126e460a5b8",
-                "reference": "ab24659cf9e1006785896b402522d126e460a5b8",
+                "url": "https://api.github.com/repos/vnali/craft-counter/zipball/10a70efb84292e9d09d056ae92da79db4664fe0d",
+                "reference": "10a70efb84292e9d09d056ae92da79db4664fe0d",
                 "shasum": ""
             },
             "require": {
@@ -5314,12 +5250,17 @@
                 "jaybizzle/crawler-detect": "^1.2",
                 "php": ">=8.0.2"
             },
+            "require-dev": {
+                "craftcms/ecs": "dev-main",
+                "craftcms/phpstan": "dev-main"
+            },
+            "default-branch": true,
             "type": "craft-plugin",
             "extra": {
-                "handle": "counter",
                 "name": "Counter",
-                "developer": "vnali",
                 "class": "vnali\\counter\\Counter",
+                "handle": "counter",
+                "developer": "vnali",
                 "documentationUrl": "https://github.com/vnali/craft-counter-docs"
             },
             "autoload": {
@@ -5327,6 +5268,7 @@
                     "vnali\\counter\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
@@ -5342,13 +5284,13 @@
                 "visits"
             ],
             "support": {
+                "docs": "https://github.com/vnali/craft-counter-docs",
                 "email": "vnali.dev@gmail.com",
                 "issues": "https://github.com/vnali/craft-counter/issues?state=open",
-                "source": "https://github.com/vnali/craft-counter",
-                "docs": "https://github.com/vnali/craft-counter-docs",
-                "rss": "https://github.com/vnali/craft-counter/releases.atom"
+                "rss": "https://github.com/vnali/craft-counter/releases.atom",
+                "source": "https://github.com/vnali/craft-counter"
             },
-            "time": "2024-11-28T15:46:15+00:00"
+            "time": "2025-01-09T18:39:41+00:00"
         },
         {
             "name": "voku/anti-xss",
@@ -5791,11 +5733,6 @@
         {
             "name": "web-auth/webauthn-lib",
             "version": "4.9.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/web-auth/webauthn-lib.git",
-                "reference": "008b25171c27cf4813420d0de31cc059bcc71f1a"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/web-auth/webauthn-lib/zipball/008b25171c27cf4813420d0de31cc059bcc71f1a",
@@ -5842,7 +5779,6 @@
                     "Webauthn\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -5862,19 +5798,6 @@
                 "FIDO2",
                 "fido",
                 "webauthn"
-            ],
-            "support": {
-                "source": "https://github.com/web-auth/webauthn-lib/tree/4.9.2"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/Spomky",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/FlorentMorselli",
-                    "type": "patreon"
-                }
             ],
             "time": "2025-01-04T09:47:58+00:00"
         },
@@ -6380,11 +6303,11 @@
         },
         {
             "name": "nette/php-generator",
-            "version": "v4.1.6",
+            "version": "v4.1.7",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/php-generator/zipball/c90961e782ae86e517fe5ed732eb2b512945565b",
-                "reference": "c90961e782ae86e517fe5ed732eb2b512945565b",
+                "url": "https://api.github.com/repos/nette/php-generator/zipball/d201c9bc217e0969d1b678d286be49302972fb56",
+                "reference": "d201c9bc217e0969d1b678d286be49302972fb56",
                 "shasum": ""
             },
             "require": {
@@ -6420,7 +6343,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "🐘 Nette PHP Generator: generates neat PHP code for you. Supports new PHP 8.3 features.",
+            "description": "🐘 Nette PHP Generator: generates neat PHP code for you. Supports new PHP 8.4 features.",
             "homepage": "https://nette.org",
             "keywords": [
                 "code",
@@ -6428,7 +6351,7 @@
                 "php",
                 "scaffolding"
             ],
-            "time": "2024-09-10T09:31:55+00:00"
+            "time": "2024-11-29T01:41:18+00:00"
         },
         {
             "name": "nette/utils",
@@ -6611,11 +6534,11 @@
         },
         {
             "name": "symfony/console",
-            "version": "v6.4.15",
+            "version": "v6.4.17",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/f1fc6f47283e27336e7cebb9e8946c8de7bff9bd",
-                "reference": "f1fc6f47283e27336e7cebb9e8946c8de7bff9bd",
+                "url": "https://api.github.com/repos/symfony/console/zipball/799445db3f15768ecc382ac5699e6da0520a0a04",
+                "reference": "799445db3f15768ecc382ac5699e6da0520a0a04",
                 "shasum": ""
             },
             "require": {
@@ -6665,7 +6588,7 @@
                 "console",
                 "terminal"
             ],
-            "time": "2024-11-06T14:19:14+00:00"
+            "time": "2024-12-07T12:07:30+00:00"
         },
         {
             "name": "yiisoft/yii2-shell",
@@ -6716,7 +6639,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "vnali/craft-counter": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

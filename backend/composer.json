@@ -23,9 +23,9 @@
   "require": {
     "craftcms/ckeditor": "4.4.0",
     "craftcms/cloud": "*",
-    "craftcms/cms": "5.5.8",
+    "craftcms/cms": "5.5.9",
     "vlucas/phpdotenv": "^5.4.0",
-    "vnali/craft-counter": "1.0.0-beta.1"
+    "vnali/craft-counter": "dev-craft5"
   },
   "require-dev": {
     "craftcms/generator": "^2.0.0",
