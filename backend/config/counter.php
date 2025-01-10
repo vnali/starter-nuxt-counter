@@ -16,6 +16,6 @@
 
 return [
     '*' => [
-        'headlessToken' => 'SecretTokenHere', // send anonymized IP in event, default is false
+        'headlessToken' => 'ComplexToken', // send anonymized IP in event, default is false
     ],
 ];
